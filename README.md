@@ -47,7 +47,9 @@ write.csv(submissionFile, 'sample_submission.csv',row.names = F)
 
 
 
-*GENERATING PREDICTION*
+***GENERATING PREDICTION***
+
+
 For this project, you are given a listing of over 35,000 Airbnb rentals in New York City*. The goal of this competition is to predict the price for a rental using 90 variables on the property, host, and past reviews. To arrive at the predictions, you are encouraged to apply your learning on data exploration, summarization, preparation, and analysis.
 
 Arriving at good predictions begins with gaining a thorough understanding of the data. This could be gleaned from examining the description of predictors, learning of the types of variables, and inspecting summary characteristics of the variables. Visual exploration may yield insights missed from merely examining descriptive characteristics. Often the edge in predictive modeling comes from variable transformations such as mean centering or imputing missing values. Review the predictors to look for candidates for transformation.
